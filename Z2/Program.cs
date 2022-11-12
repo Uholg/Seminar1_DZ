@@ -9,13 +9,13 @@ int  b =Convert.ToInt32(Console.ReadLine());
 
 if (a > b)
 {
-    Console.WriteLine("max =" + a);
+    Console.WriteLine("max = " + a);
 }
 else 
-{
-    Console.WriteLine("max = " + b);
-}
-else 
+{ if ( b> a) 
+   {Console.WriteLine("max = " + b);}
+   else 
 {
     Console.WriteLine("Числа равны");
+}
 }
