@@ -15,3 +15,7 @@ else
 {
     Console.WriteLine("max = " + b);
 }
+else 
+{
+    Console.WriteLine("Числа равны");
+}
